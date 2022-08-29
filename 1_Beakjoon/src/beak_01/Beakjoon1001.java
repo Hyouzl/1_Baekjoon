@@ -2,18 +2,18 @@ package beak_01;
 
 import java.util.*;
 
-public class BeakJoon1000 {
+public class Beakjoon1001 {
 	public static void main(String[] args) {
+		int a,b;
 		
 		Scanner scan = new Scanner(System.in);
 		
-		int a = scan.nextInt();
-		int b = scan.nextInt();
-	
+		a = scan.nextInt();
+		b = scan.nextInt();
 		
-		System.out.println(a+b);
+		System.out.println(a-b);
 		
 		scan.close();
 	}
-
+	
 }
