@@ -12,8 +12,6 @@ public class Beakjoon1002 {
 		
 		int testCase = scan.nextInt();
 		
-		System.out.println(testCase);
-
 		int x1,y1;
 		int x2,y2;
 		int r1,r2;
@@ -34,7 +32,7 @@ public class Beakjoon1002 {
 			
 			int x = x2- x1;
 			int y = y2 - y1;
-			double len = Math.sqrt(x) + Math.sqrt(y);
+			double len = Math.sqrt(Math.pow(x, 2)) + Math.sqrt(Math.pow(y, 2));
 			
 			if (x1 == x2 && y1 == y2) {
 				cnt = -1;
@@ -42,7 +40,7 @@ public class Beakjoon1002 {
 			else if (r1 + r2 < len) {
 				cnt = 0;
 			}
-			else if (r1 + r2 == len) {
+			else if (r1 + r2 == len || r2 - r1 == len || r1 - r2 == len) {
 				cnt = 1;
 			}
 			else cnt = 2;
