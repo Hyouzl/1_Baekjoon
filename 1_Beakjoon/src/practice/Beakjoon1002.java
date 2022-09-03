@@ -1,4 +1,4 @@
-package beak_01;
+package practice;
 
 import java.util.Random;
 import java.util.Scanner;

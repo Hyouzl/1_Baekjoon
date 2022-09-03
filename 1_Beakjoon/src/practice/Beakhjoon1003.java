@@ -1,4 +1,4 @@
-package beak_01;
+package practice;
 import java.io.BufferedReader;
 import java.util.*;
 public class Beakhjoon1003 {
